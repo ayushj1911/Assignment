@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <main>
+        <aside>
+            <ul>
+                <li>
+                    <a href="#" onclick="showContent('home')">Home</a>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('about')">About</a>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('services')">Services</a>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('contact')">Contact Us</a>
+                </li>
+            </ul>
+        </aside>
+
+        <section id="home">
+            <h2>Home</h2>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi animi numquam doloremque veritatis qui,
+                blanditiis cupiditate, quibusdam maiores, inventore accusamus facilis possimus laudantium odio quod sed
+                dolorum quam doloribus dolore ipsum pariatur! Nobis sit odit ab aspernatur aperiam doloribus et dolorem
+                excepturi eius ad modi eos, alias laborum veritatis voluptatem!</p>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi animi numquam doloremque veritatis qui,
+                blanditiis cupiditate, quibusdam maiores, inventore accusamus facilis possimus laudantium odio quod sed
+                dolorum quam doloribus dolore ipsum pariatur! Nobis sit odit ab aspernatur aperiam doloribus et dolorem
+                excepturi eius ad modi eos, alias laborum veritatis voluptatem!</p>
+
+        </section>
+
+        <section id="about" style="display: none;">
+            <h2>About</h2>
+            <h3>LOREM</h3>
+            <p>A guide or tutorial will be shown in this section. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nemo consectetur quidem maiores. Voluptatum qui sapiente quam, ullam, consequuntur recusandae
+                nostrum voluptas consectetur asperiores quia possimus reprehenderit officia dicta a amet unde rem id
+                accusamus facilis quibusdam! Nulla, iusto possimus ipsam sunt incidunt perferendis aliquam libero,
+                consectetur ipsum illo accusantium omnis?</p>
+        </section>
+
+        <section id="services" style="display: none;">
+            <h2>Services</h2>
+            <h3>LOREM</h3>
+            <p>A guide or tutorial will be shown in this section. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nemo consectetur quidem maiores. Voluptatum qui sapiente quam, ullam, consequuntur recusandae
+                nostrum voluptas consectetur asperiores quia possimus reprehenderit officia dicta a amet unde rem id
+                accusamus facilis quibusdam! Nulla, iusto possimus ipsam sunt incidunt perferendis aliquam libero,
+                consectetur ipsum illo accusantium omnis?</p>
+        </section>
+
+        <section id="contact" style="display: none;">
+            <h2>Contact</h2>
+            <div class="contact-form">
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
